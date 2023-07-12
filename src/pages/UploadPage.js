@@ -5,7 +5,11 @@ import NoteComponent from '../components/Note';
 
 const UploadPage = () => {
     const [numQuestions, setNumQuestions] = useState(50);
-    const defaultJsonl = Array(numQuestions).fill({question: "", options: ["", "", "", ""], answer: 0});
+    const defaultJsonl = Array.from({length: numQuestions}, (_, index) => ({
+        question: `Q${index + 1}: `, 
+        options: ["", "", "", ""], 
+        answer: 0
+    }));
 
     const [files, setFiles] = useState({text: "", jsonl: defaultJsonl});  // initialize txt and jsonl
     const [filesLoaded, setFilesLoaded] = useState({text: false, jsonl: false}); // track if files have been loaded
@@ -17,7 +21,11 @@ const UploadPage = () => {
             setNumQuestions(num);
             setFiles(prevState => ({
                 text: prevState.text,
-                jsonl: Array(num).fill({question: "", options: ["", "", "", ""], answer: 0})
+                jsonl: Array.from({length: num}, (_, index) => ({
+                    question: `Q${index + 1}: `, 
+                    options: ["", "", "", ""], 
+                    answer: 0
+                }))
             }));
         }
     }
