@@ -2,7 +2,7 @@
 
 A website that can convert multiple choice questions entered by users into jsonl format:
 
-![main page](/../qa_generator/public/page.png)
+![main page](./qa_generator/public/page.png)
 
 ```jsonl
 {
