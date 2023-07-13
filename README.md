@@ -4,7 +4,7 @@ A website that can convert multiple choice questions entered by users into jsonl
 
 ![main page](./public/page.png)
 
-```jsonl
+```json
 {
     question: "",
     options: ["0", "1", "2", "3"],
