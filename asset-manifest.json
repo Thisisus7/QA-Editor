@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/QA-Editor/static/css/main.1b612600.css",
-    "main.js": "/QA-Editor/static/js/main.be4f8605.js",
+    "main.js": "/QA-Editor/static/js/main.9e082b5b.js",
     "static/js/787.c82c380c.chunk.js": "/QA-Editor/static/js/787.c82c380c.chunk.js",
     "index.html": "/QA-Editor/index.html",
     "main.1b612600.css.map": "/QA-Editor/static/css/main.1b612600.css.map",
-    "main.be4f8605.js.map": "/QA-Editor/static/js/main.be4f8605.js.map",
+    "main.9e082b5b.js.map": "/QA-Editor/static/js/main.9e082b5b.js.map",
     "787.c82c380c.chunk.js.map": "/QA-Editor/static/js/787.c82c380c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b612600.css",
-    "static/js/main.be4f8605.js"
+    "static/js/main.9e082b5b.js"
   ]
 }
