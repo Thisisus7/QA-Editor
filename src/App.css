@@ -12,7 +12,7 @@ SECTION 1: General Styles
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr auto;
-    gap: 20px;
+    gap: 2px;
     padding: 0 20px 0 20px;
     font-family: Arial, sans-serif;
     height: 100vh;
@@ -23,6 +23,7 @@ SECTION 1: General Styles
     font-size: 2em;
     color: #333;
     grid-column: span 2;
+    margin: 2px;
 }
 
 textarea {

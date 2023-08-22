@@ -8,7 +8,9 @@ const UploadPage = () => {
     const defaultJsonl = Array.from({length: numQuestions}, (_, index) => ({
         question: `Q${index + 1}: `, 
         options: ["", "", "", ""], 
-        answer: 0
+        answer: 0,
+        type: "Common sense",
+        text: ""
     }));
 
     const [files, setFiles] = useState({text: "", jsonl: defaultJsonl});  // initialize txt and jsonl
@@ -24,7 +26,9 @@ const UploadPage = () => {
                 jsonl: Array.from({length: num}, (_, index) => ({
                     question: `Q${index + 1}: `, 
                     options: ["", "", "", ""], 
-                    answer: 0
+                    answer: 0,
+                    type: "Common sense",
+                    text: ""
                 }))
             }));
         }

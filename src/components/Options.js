@@ -5,7 +5,7 @@ const OptionsComponent = ({options, handleOptionChange}) => {
             {options.map((option, index) => (
                 <div key={index} className='textarea-row'>
                     <span>{index}:</span>
-                    <textarea type="text" name={`option${index}`} value={option} onChange={(e) => handleOptionChange(e, index)} />
+                    <input type="text" name={`option${index}`} value={option} onChange={(e) => handleOptionChange(e, index)} />
                 </div>
             ))}
         </label>
