@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';  // for useNavigate
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/QA-Editor">
       <App />
     </BrowserRouter>
   </React.StrictMode>
